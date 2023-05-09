@@ -77,7 +77,13 @@ p{
     column-gap: 16px;
     row-gap: 40px;
     
-}@media (min-width:500px) and (max-width:550px){
+}
+@media screen and (max-width :550px) {
+    .video-grid{
+        grid-template-columns: 1fr;
+    }
+}
+@media (min-width:500px) and (max-width:550px){
     .video-grid{
         grid-template-columns: 1fr;
     }
