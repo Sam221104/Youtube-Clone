@@ -181,7 +181,73 @@
     padding-right: 5px;
     padding-top: 2px;
     padding-bottom: 2px;
+}
+@media screen and (max-width : 714px) {
+    .middle-section{
+        display: none;
+    }
+}
+@media screen and (max-width :550px) and (min-width:476px){
+    .right-section{
+   
+        width:200px;
+        margin-left:35px;
+        display:flex;
+        justify-content:space-around;
+        align-items: center;
+        margin-right: 20px;
+        flex-shrink: 0;
+    }
+    
+    .hamburger-menu{
+        display: none;
+    }
+    .youtube-logo-container{
+        margin-left: 15px;
+    }
+    .notification{
+        height: 27px;
+        
+    }
+    .my-channel{
+        height: 27px;
+        border-radius: 20px;
+        
+    }
+}
+@media screen and (max-width: 476px) {
+    .hamburger-menu{
+        display: none;
+    }
+    .youtube-logo-container{
+        margin-left: 15px;
+    }
+}
+@media screen and (max-width : 418px) {
+    .right-section{
+        margin-left: -250px;
+    }
+    .upload{
+        
+       margin-right: -190px;
+    }
+    .youtube-apps{
+        display: none;
+    }
+    .notification{
+        height: 27px;
+        margin-right: -50px;
+    }
+    .my-channel{
+        height: 27px;
+        border-radius: 20px;
+    }
+    .notification-count{
+        top: -2px;
+        right:-40px;
 
+    }
+    
 }
 
 
