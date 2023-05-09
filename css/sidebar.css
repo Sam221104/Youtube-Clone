@@ -69,4 +69,29 @@
     }
 
 }
+@media screen and (max-width :550px){
+    .sidebar{
+        width: 50px;
+        
+    }
+    .sidebar-icons{
+       
+        display: flex;
+        justify-content: center;
+        align-items:center ;
+        flex-direction: column;
+        height: 54px;
+        
+        
+    }
+    .sidebar-icons img{
+        height: 24px;
+    }
+    
+    .sidebar-icons div{
+        display: none;
+
+    }
+    
+}
 
